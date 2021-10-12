@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import ResultComponent from './components/ResultComponent'
-import KeyPadComponent from './components/KeypadComponent'
+import KeypadComponent from './components/KeypadComponent'
 
 
 class App extends React.Component {
@@ -59,7 +59,7 @@ class App extends React.Component {
         <div className="calculator-body">
           <h1>Simple Calculator</h1>
           <ResultComponent result={this.state.result}/>
-          <KeyPadComponent onClick={this.onClick}/>
+          <KeypadComponent onClick={this.onClick}/>
         </div>
       </div>
     )
