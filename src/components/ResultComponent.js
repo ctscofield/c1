@@ -1,6 +1,6 @@
-import React, {Component} from 'react'
+import React from 'react'
 
-class ResultComponent extends Component {
+class ResultComponent extends React.Component {
   
   render() {
     let {result} = this.props

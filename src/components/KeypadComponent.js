@@ -1,6 +1,6 @@
-import React, {Component} from 'react'
+import React from 'react'
 
-class KeyPadComponent extends Component {
+class KeyPadComponent extends React.Component {
   render() {
     return (
       <div className="button"> 
