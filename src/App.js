@@ -32,6 +32,7 @@ class App extends React.Component {
   calculate = () => {
     try {
       this.setState({
+        //eslint-disable-next-line
         result: (eval(this.state.result) || "") + ""
       })
     } catch (e) {
@@ -57,7 +58,7 @@ class App extends React.Component {
     return (
       <div>
         <div className="calculator-body">
-          <h1>Simple Calculator</h1>
+          <h1>Mobile Calculator</h1>
           <ResultComponent result={this.state.result}/>
           <KeyPadComponent onClick={this.onClick}/>
         </div>
